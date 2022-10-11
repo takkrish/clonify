@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&family=Satisfy&family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@layer base {
+	html {
+		@apply bg-gray-100;
+	}
+	/* Chrome, Safari and Opera */
+	.no-scrollbar::-webkit-scrollbar {
+		@apply hidden;
+	}
+
+	.no-scrollbar {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+}
+
+.progressbar {
+	animation: progressbar linear both;
+}
+
+.progressbar-full {
+	width: 100%;
+}
+.progressbar-zero {
+	width: 0;
+}
+
+@keyframes progressbar {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
