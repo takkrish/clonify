@@ -161,7 +161,7 @@ const Auth = (props) => {
 							// });
 							// router.push(data.url);
 						}}>
-						<button
+						{/* <button
 							type='button'
 							className='flex items-center justify-center ring-1 ring-gray-300 py-3 rounded-md font-medium hover:ring-gray-400 hover:bg-gray-100 hover:ring-2 transition shadow-md'
 							// onClick={() => {
@@ -182,8 +182,8 @@ const Auth = (props) => {
 						>
 							<FcGoogle className='mr-5 text-2xl' />
 							Sign In with Google
-						</button>
-						<button
+						</button> */}
+						{/* <button
 							type='button'
 							className='flex items-center justify-center ring-1 ring-gray-300 py-3 rounded-md font-medium hover:ring-gray-400 transition hover:ring-2   hover:bg-gray-900 text-white bg-gray-800 shadow-md shadow-gray-300'
 							// onClick={() => {
@@ -204,12 +204,12 @@ const Auth = (props) => {
 						>
 							<FaGithub className='mr-5 text-2xl' />
 							Sign In with Github
-						</button>
-						<div className='border-t border-gray-300 h-0 flex items-center justify-center mt-3'>
+						</button> */}
+						{/* <div className='border-t border-gray-300 h-0 flex items-center justify-center mt-3'>
 							<p className='text-gray-600 bg-white px-4 text-sm'>
 								OR
 							</p>
-						</div>
+						</div> */}
 						{error && (
 							<div className='bg-red-50 px-4 py-3 rounded-md border-x-2 border-red-600'>
 								<p className='text-red-600 text-sm text-left'>
@@ -276,7 +276,7 @@ const Auth = (props) => {
 							setError('');
 							handleSignup();
 						}}>
-						<div className='flex space-x-5'>
+						{/* <div className='flex space-x-5'>
 							<button
 								type='button'
 								className='flex items-center justify-center ring-1 ring-gray-300 py-3 rounded-md font-medium hover:ring-gray-400 hover:bg-gray-100 hover:ring-2 transition shadow-md w-full'
@@ -321,12 +321,12 @@ const Auth = (props) => {
 								<FaGithub className='mr-5 text-2xl' />
 								Sign Up with Github
 							</button>
-						</div>
-						<div className='border-t border-gray-300 h-0 flex items-center justify-center mt-3'>
+						</div> */}
+						{/* <div className='border-t border-gray-300 h-0 flex items-center justify-center mt-3'>
 							<p className='text-gray-600 bg-white px-4 text-sm'>
 								OR
 							</p>
-						</div>
+						</div> */}
 						{error && (
 							<div className='bg-red-50 px-4 py-3 rounded-md border-x-2 border-red-600'>
 								<p className='text-red-600 text-sm text-left'>

@@ -160,8 +160,8 @@ const Stories = ({ currentUser, createStory, friends, friendStatus }) => {
 							multiple={false}
 							onDone={({ type, base64 }) => {
 								const str = type;
-								const image = str.includes('image');
-								if (image) {
+								const image = str.includes('video');
+								if (!image) {
 									setError('Please select video only');
 									setStoryVideo('');
 								} else {
